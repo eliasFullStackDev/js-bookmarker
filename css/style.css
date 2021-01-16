@@ -1,0 +1,159 @@
+/*
+ * Js-Bookmarker
+ * version: 1.0.0
+ * By: Elias Abdurrahman
+ * date: july 8, 2019
+ */
+body {
+  background: #2C3E50;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-section {
+  background: transparent;
+  max-width: 600px;
+  width: 90%;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.bookmarker-holder {
+  width: 100%;
+  background: #fff;
+}
+.bookmarker-nav{
+  border-bottom: 2px solid #eee;
+}
+
+.bookmarker-nav li{
+    display: inline-block;
+    list-style: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+    width: 49%;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 500ms;
+}
+.bookmarker-nav .activ-bm{
+  background:#00ABA9;
+  color: #fff;
+}
+.bookmarker-body {
+  min-height: 380px;
+  height: auto;
+}
+.input-error {
+  color: #D68282;
+  padding: 10px 5px;
+  text-transform: none;
+}
+.bookmarker-form{
+  width: 95%;
+  margin: auto;
+  padding-top: 60px;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.bookmarker-form label {
+  color: #333;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 2px;
+}
+.bookmarker-form input {
+  width: 100%;
+  padding: 13px;
+  outline: none;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.bookmarker-form button {
+  background: #00ABA9;
+  color: #fff;
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  margin: 10px 0px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  float: right;
+}
+.bookmarker-form button:hover {
+  background: #2C3E50;
+}
+.bookmarker-show{
+  margin: 10px 0px;
+}
+.bookmarker-show-item {
+  padding: 10px 15px;
+  margin: 10px 0px;
+  box-shadow: 0 2px 2px 0 #eee, 0 2px 2px 0 #eee;
+  font-family: sans-serif;
+}
+.bookmarker-show-item h4{
+  display: inline-block;
+}
+.bookmarker-show-item h4 a{
+  text-decoration: none;
+  color: #666666;
+  font-size: 16px;
+}
+.bookmarker-show-item h4 a:hover{
+  color: #00ABA9;
+}
+.bookmarker-show-item span {
+  float: right;
+  cursor: pointer;
+  color: #777;
+}
+.bookmarker-show-item span:hover {
+   color: #C80000;
+}
+.bookmarker-show-item i{
+  display: block;
+  color: #aaa;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+footer {
+  width: 100%;
+  background: #fff;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer h2 {
+  color: #777;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.footer-links {
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #777;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  padding: 0px 5px;
+}

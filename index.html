@@ -1,0 +1,49 @@
+<!-- 
+ -- Js-Bookmarker
+ -- version: 1.0.0
+ -- By: Elias Abdurrahman
+ -- date: july 8, 2019
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="Elias Abdurrahman">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Bookmarker">
+  <title>Js-Bookmarker</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="favicon.PNG" />
+</head>
+
+<body>
+  <div class="main-section">
+    <div class="bookmarker-holder">
+      <ul class="bookmarker-nav">
+        <li onmouseover="mouseOv(this, 1)" onmouseleave="mouseOt(this, 1)" onclick="changeView(0)">Add Web</li>
+        <li onmouseover="mouseOv(this, 2)" onmouseleave="mouseOt(this, 1)" onclick="changeView(1)">Show Web</li>
+      </ul>
+      <div class="bookmarker-body" id="bookmarkerBody">
+      </div>
+    </div>
+   
+    <footer>
+      <h2>@eliasFullStackDev</h2>
+      <div class="footer-links">
+        <a href="https://www.youtube.com/codingwithelias?sub_confirmation=1" 
+           target="_blank">YouTube</a> 
+        |
+        <a href="https://me.habeshasoft.com" 
+           target="_blank">Website</a>
+        |
+        <a href="https://github.com/eliasFullStackDev" 
+           target="_blank">GitHub</a>
+      </div>
+    </footer>
+  </div>
+ 
+  <script src="js/app.js"></script>
+</body>
+</html>
