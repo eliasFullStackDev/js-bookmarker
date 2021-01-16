@@ -5,9 +5,9 @@ version: 1.0.0
 
 ## Screenshots 
 
-![Screenshots](https://github.com/eliasFullStackDev/screenshots/Capture-1.PNG)
+![Screenshots](https://github.com/eliasFullStackDev/js-bookmarker/blob/master/screenshots/Capture-1.PNG)
 
-![Screenshots](https://github.com/eliasFullStackDev/screenshots/Capture-1.PNG)
+![Screenshots](https://github.com/eliasFullStackDev/js-bookmarker/blob/master/screenshots/Capture-2.PNG)
 
 ## Deployment
 
